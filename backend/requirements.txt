@@ -1,0 +1,12 @@
+langchain-community
+langchain-core
+langchain-huggingface
+langchain-openrouter
+langchain-text-splitters
+python-dotenv
+faiss-cpu
+sentence-transformers
+pypdf
+python-multipart
+uvicorn
+fastapi
