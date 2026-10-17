@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "askmypdf-backend"
+version = "0.1.0"
+description = "Backend API for chatting with PDF documents"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-community",
+    "langchain-core",
+    "langchain-huggingface",
+    "langchain-openrouter",
+    "langchain-text-splitters",
+    "python-dotenv",
+    "faiss-cpu",
+    "sentence-transformers",
+    "pypdf",
+    "python-multipart",
+    "uvicorn",
+    "fastapi",
+]
+
+[tool.setuptools]
+py-modules = ["api", "app"]
